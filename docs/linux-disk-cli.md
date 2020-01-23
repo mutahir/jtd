@@ -28,6 +28,18 @@ View this site's [_config.yml](https://github.com/pmarsceill/just-the-docs/tree/
 # Set a path/url to a logo that will be displayed instead of the title
 logo: "/assets/images/just-the-docs.png"
 ```
+## Basic Disk management
+
+To list the disks:
+
+`df -h`
+`df -k`
+`df -i` : with inodes
+
+```bash
+ls -larth /dir/dir/*name* | grep <string>
+cat <filename.txt> | grep somestring |egrep ' name|sometext'
+```
 
 ## Search
 
